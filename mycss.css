@@ -30,8 +30,8 @@ hr.star-white:after {
 .quote-item {
     position: relative;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .quote-item {
@@ -55,8 +55,8 @@ hr.star-white:after {
         -ms-flex: 0 0 33.33333%;
         flex: 0 0 33.33333%;
         max-width: 33.33333%;
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 45px;
+        padding-left: 45px;
     }
 }
 
@@ -67,8 +67,8 @@ hr.star-white:after {
         -ms-flex-positive: 1;
         flex-grow: 1;
         max-width: 100%;
-        padding-right: 45px;
-        padding-left: 45px;
+        padding-right: 60px;
+        padding-left: 60px;
     }
 }
 
