@@ -3,10 +3,10 @@
 
 function openingQuestions() {
     let person = prompt("Hello, What is your name?", "Please enter your name here.");
-    let reason = prompt("What brought you here today?", "Please enter your reason here.");
-    let compType = prompt("What device are you using to view this site?", "Please answer here.");
+    let reason = prompt("What brought you here today?", "I came to...");
+    let compType = prompt("What device are you using to view this site?", "Please enter your device here.");
     
-    let welcomeMessage = `Welcome, ${person}! I'm please you've stopped by to ${reason} . I hope you enjoy this site on your ${compType}`;
+    let welcomeMessage = `Welcome, ${person}! I'm pleased you've stopped by to ${reason} . I hope you enjoy this site on your ${compType}`;
 
     document.getElementById("welcome-modal-message").innerHTML = welcomeMessage;
 
@@ -18,8 +18,22 @@ function openingQuestions() {
 
 function displayWelcomeMsg() {
     let welcomeModal = document.getElementById("welcome-modal-1");
-    welcomeModal.style.display = "block"
-}
+    welcomeModal.style.display = "block";
+
+    let span = document.getElementsByClassName("close")[0];
+
+    span.onclick = closeModal() {
+        welcomeModal.style.display = "none";
+    };
+
+    window.onclick = exitModal(event) {
+        if (event.target == welcomeModal) {
+            welcomeModal.style.display = "none";
+        }
+    } 
+};
+
+
 
 (function($) {
     "use strict"; // Start of use strict
