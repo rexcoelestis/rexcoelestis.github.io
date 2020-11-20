@@ -1,8 +1,25 @@
 
+quote-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 /* Media Queries */
 
+@media (min-width: 768px) {
+    quote-row.container {
+        flex-wrap: wrap-reverse;
+    }
+}
 
+@media (min-width: 992px) {
+    quote-row.container {
+        flex-direction: column;
+        flex-wrap: none;
+    }
+}
 
 /* CSS Animation */
 
