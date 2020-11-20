@@ -4,14 +4,9 @@
 function openingQuestions() {
     let person = prompt("Hello, What is your name?", "Please enter your name here.");
     let reason = prompt("What brought you here today?", "Please enter your reason here.");
-    let compType = prompt("Are you a Mac or a PC?", "Please answer here.");
-
-    if( compType === "Mac") {
-        let compStatement = "I'm pleased you're a Mac!"} else {
-            compStatement = "I won't hold the fact that you're a PC against you... lol."
-        };
+    let compType = prompt("What device are you using to view this site?", "Please answer here.");
     
-    let welcomeMessage = `Welcome, ${person}! I'm please you've stopped by to ${reason} . Also, ${compStatement}`;
+    let welcomeMessage = `Welcome, ${person}! I'm please you've stopped by to ${reason} . I hope you enjoy this site on your ${compType}`;
 
     document.getElementById("welcome-modal-message").innerHTML = welcomeMessage;
 
