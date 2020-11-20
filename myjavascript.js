@@ -8,7 +8,7 @@ function openingQuestions() {
 
     if( compType === "Mac") {
         let compStatement = "I'm pleased you're a Mac!"} else {
-            let compStatement = "I won't hold the fact that you're a PC against you... lol."
+            compStatement = "I won't hold the fact that you're a PC against you... lol."
         };
     
     let welcomeMessage = `Welcome, ${person}! I'm please you've stopped by to ${reason} . Also, ${compStatement}`;
