@@ -16,6 +16,9 @@
   
 
 ### Javascript Features :floppy_disk:
-1. Email Validation
+1. Create 3 Variables, Set Values, and Display
+   1. Intial questions
+1. Show/Hide one or more content areas
+   1. Modal to diplay answers
 
 
