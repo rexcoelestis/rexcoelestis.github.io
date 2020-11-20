@@ -1,18 +1,11 @@
 
-// Form validation
+// Variables and User Interaction
 
-function validateEmail() {
-    let emailID = document.contactForm.email.value;
-    let atpos = emailID.indexof("@");
-    let dotpos = emailID.indexof(".");
-
-    if (atpos < 1 || ( dotpos - atpos < 2)) {
-        alert("Please enter a valid email address")
-        document.contactForm.email.focus() ;
-        return false;
-    }
-    return(true);
-}
+function openingQuestions() {
+    let person = prompt("Hello, What is your name?", "Please enter your name here.");
+    let reason = prompt("What brought you here today?", "Please enter your reason here.");
+    let compType = prompt("Are you a Mac or a PC?", "Please answer here.");
+};
 
 (function($) {
     "use strict"; // Start of use strict
