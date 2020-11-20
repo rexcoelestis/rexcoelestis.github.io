@@ -1,21 +1,21 @@
 
-quote-row {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 30px;
-    padding-right: 30px;
+.quote-item {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 /* Media Queries */
 
 @media (min-width: 768px) {
-    quote-row.container {
-        flex-wrap: wrap-reverse;
+    .quote-item {
+        width: 27%
     }
 }
 
 @media (min-width: 992px) {
-    quote-row.container {
+    .quote-item {
         flex-direction: column;
         flex-wrap: none;
     }
