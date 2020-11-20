@@ -1,7 +1,7 @@
 
 // Form validation
 
-funtion validateEmail() {
+function validateEmail() {
     let emailID = document.contactForm.email.value;
     let atpos = emailID.indexof("@");
     let dotpos = emailID.indexof(".");
