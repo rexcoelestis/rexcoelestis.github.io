@@ -22,11 +22,11 @@ function displayWelcomeMsg() {
 
     let span = document.getElementsByClassName("close")[0];
 
-    span.onclick = closeModal() {
+    span.onclick = function closeModal() {
         welcomeModal.style.display = "none";
     };
 
-    window.onclick = exitModal(event) {
+    window.onclick = function exitModal(event) {
         if (event.target == welcomeModal) {
             welcomeModal.style.display = "none";
         }
