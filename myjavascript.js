@@ -1,11 +1,30 @@
 
-// Variables and User Interaction
+// 3 Variables and User Interaction
 
 function openingQuestions() {
     let person = prompt("Hello, What is your name?", "Please enter your name here.");
     let reason = prompt("What brought you here today?", "Please enter your reason here.");
     let compType = prompt("Are you a Mac or a PC?", "Please answer here.");
+
+    if( compType === "Mac") {
+        let compStatement = "I'm pleased you're a Mac!"} else {
+            let compStatement = "I won't hold the fact that you're a PC against you... lol."
+        };
+    
+    let welcomeMessage = "Welcome, ${person}! I'm please you've stopped by to ${reason} . Also, ${compStatment}";
+
+    document.getElementById("welcome-modal-message").innerHTML = welcomeMessage;
+
+    displayWelcomeMsg();
+
 };
+
+// Welcome Modal
+
+function displayWelcomeMsg() {
+    let welcomeModal = document.getElementById("welcome-modal-1");
+    welcomeModal.style.display = "block"
+}
 
 (function($) {
     "use strict"; // Start of use strict
