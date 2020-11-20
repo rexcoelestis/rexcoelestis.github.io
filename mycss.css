@@ -1,0 +1,22 @@
+
+
+/* Media Queries */
+
+/* CSS Animation */
+
+#profile_icon {
+    animation-name: spinny;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinny {
+    from {
+        transform: rotate(0deg);
+    }    
+    to {transform: rotate(360deg);
+    }
+}
+
+/*  */
