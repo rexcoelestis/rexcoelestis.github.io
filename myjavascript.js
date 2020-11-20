@@ -11,7 +11,7 @@ function openingQuestions() {
             let compStatement = "I won't hold the fact that you're a PC against you... lol."
         };
     
-    let welcomeMessage = `Welcome, ${person}! I'm please you've stopped by to ${reason} . Also, ${compStatment}`;
+    let welcomeMessage = `Welcome, ${person}! I'm please you've stopped by to ${reason} . Also, ${compStatement}`;
 
     document.getElementById("welcome-modal-message").innerHTML = welcomeMessage;
 
